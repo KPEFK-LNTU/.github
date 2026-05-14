@@ -11,11 +11,5 @@ Welcome to the official GitHub organization of the **Separate Structural Unit Ko
 We believe in the power of open source and collaboration. Here students and faculty publish their projects, share knowledge, and learn together, creating real solutions for real challenges.
 
 <div align="center">
-
-**Created with ❤️ by students and faculty of KPEFK LNTU**
-
-🇺🇦 **We Teach. We Create. We Inspire.**
-
 ⭐ Support us with a star on GitHub!
-
 </div>
