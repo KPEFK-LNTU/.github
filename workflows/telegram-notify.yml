@@ -1,0 +1,16 @@
+name: telegram-notify
+on: [push, pull_request]
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          format: markdown
+          message: |
+            🔔 ${{ github.event_name }} у ${{ github.repository }}
+            Автор: ${{ github.actor }}
+            ${{ github.event.head_commit.message }}
+            ${{ github.event.head_commit.url }}
